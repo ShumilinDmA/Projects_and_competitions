@@ -1,0 +1,8 @@
+# @package _group_
+optimizer:
+  name: AdamW
+  lr: 0.001
+  weight_decay: 0.01
+  betas:
+    one: 0.9
+    two: 0.999

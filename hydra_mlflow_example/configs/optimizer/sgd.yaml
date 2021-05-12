@@ -1,0 +1,7 @@
+# @package _group_
+optimizer:
+  name: SGD
+  lr: 0.01
+  weight_decay: 0.001
+  momentum: 0.001
+  nesterov: False

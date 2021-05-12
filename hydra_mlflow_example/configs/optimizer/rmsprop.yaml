@@ -1,0 +1,7 @@
+# @package _group_
+optimizer:
+  name: RMSprop
+  lr: 0.01
+  weight_decay: 0.001
+  momentum: 0.001
+  alpha: 0.99

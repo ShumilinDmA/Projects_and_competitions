@@ -1,0 +1,28 @@
+# @package _group_
+architecture:
+  num_classes: 10
+  Conv1:
+    input: 1
+    output: 32
+    kernel: 3
+  Conv2:
+    input: 32
+    output: 64
+    kernel: 3
+  MaxPool1:
+    kernel: 2
+    stride: 2
+  Conv3:
+    input: 64
+    output: 128
+    kernel: 3
+  Conv4:
+    input: 128
+    output: 256
+    kernel: 3
+  MaxPool2:
+    kernel: 2
+    stride: 2
+  Linear:
+    input: 4096
+    output: 1000

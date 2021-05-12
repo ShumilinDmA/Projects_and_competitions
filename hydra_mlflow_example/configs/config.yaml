@@ -1,0 +1,12 @@
+# @package _group_
+batch_size: 32
+num_gpus: 0
+num_workers: 4
+max_epoch: 3
+seed: 255
+
+
+loss : CEloss
+defaults:
+  - optimizer: adam  #adam, adamw, rmsprop, sgd
+  - architecture: architecture
